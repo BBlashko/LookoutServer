@@ -1,1 +1,1 @@
-{"isActive":true,"message":"The Lookout: No movement detected.","numbers":[],"startTime":"07:00","endTime":"21:00","inactivityTimeout":"04:00:00"}
+{"isActive":true,"message":"The Lookout: No movement detected.","numbers":["1234567890"],"startTime":"07:00","endTime":"21:00","inactivityTimeout":"00:00:00"}

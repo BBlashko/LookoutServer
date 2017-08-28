@@ -46,6 +46,11 @@ while True:
                 elif (data == "checking connection"):
                     client_sock.send("connection exists")
                 else:
+                    # in case of duplicate data transmission
+                    if data.count('{') > 1:
+                        data = data.split("{")[1]
+                        data = "{" + data
+                        print "split data"
                     file.seek(0)
                     file.truncate()
                     file.write(data)
